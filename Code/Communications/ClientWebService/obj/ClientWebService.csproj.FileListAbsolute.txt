@@ -1,0 +1,5 @@
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\ClientWebService\obj\Debug\ResolveAssemblyReference.cache
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\ClientWebService\bin\Debug\ClientWebService.exe
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\ClientWebService\bin\Debug\ClientWebService.pdb
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\ClientWebService\obj\Debug\ClientWebService.exe
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\ClientWebService\obj\Debug\ClientWebService.pdb

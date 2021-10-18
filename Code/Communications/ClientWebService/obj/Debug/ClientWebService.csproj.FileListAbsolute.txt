@@ -1,0 +1,7 @@
+F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\bin\Debug\ClientWebService.exe.config
+F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\bin\Debug\ClientWebService.exe
+F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\bin\Debug\ClientWebService.pdb
+F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\obj\Debug\ClientWebService.csproj.AssemblyReference.cache
+F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\obj\Debug\ClientWebService.csproj.CoreCompileInputs.cache
+F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\obj\Debug\ClientWebService.exe
+F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\obj\Debug\ClientWebService.pdb

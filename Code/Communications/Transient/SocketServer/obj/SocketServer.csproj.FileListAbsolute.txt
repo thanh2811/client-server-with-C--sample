@@ -1,0 +1,12 @@
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketServer\obj\Debug\ResolveAssemblyReference.cache
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketServer\bin\Debug\SocketServer.exe
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketServer\bin\Debug\SocketServer.pdb
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketServer\obj\Debug\SocketServer.exe
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketServer\obj\Debug\SocketServer.pdb
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketServer\bin\Debug\SocketServer.exe.config
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketServer\bin\Debug\SocketServer.exe.config
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketServer\obj\Debug\SocketServer.exe
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketServer\obj\Debug\SocketServer.pdb
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketServer\bin\Debug\SocketServer.exe
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketServer\bin\Debug\SocketServer.pdb
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketServer\obj\Debug\ResolveAssemblyReference.cache

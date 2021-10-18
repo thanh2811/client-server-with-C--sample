@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://wwww.hocvienmang.com/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://wwww.hocvienmang.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://wwww.hocvienmang.com/">
+      <s:element name="Hello">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HelloResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocalDateTime">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetLocalDateTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetLocalDateTimeResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocalDateTimeTicks">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetLocalDateTimeTicksResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetLocalDateTimeTicksResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUtcDateTime">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetUtcDateTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetUtcDateTimeResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUtcDateTimeTicks">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetUtcDateTimeTicksResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetUtcDateTimeTicksResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocalDiffernceTicks">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClientLocalDateTimeTicks" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocalDiffernceTicksResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetLocalDiffernceTicksResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUtcDiffernceTicks">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClientUtcDateTimeTicks" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUtcDiffernceTicksResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetUtcDiffernceTicksResult" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocalDateTimeAndDiffernceTicks">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClientLocalDateTimeTicks" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="DiffernceTicks" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocalDateTimeAndDiffernceTicksResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetLocalDateTimeAndDiffernceTicksResult" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="DiffernceTicks" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUtcDateTimeAndDiffernceTicks">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ClientUtcDateTimeTicks" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="DiffernceTicks" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUtcDateTimeAndDiffernceTicksResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetUtcDateTimeAndDiffernceTicksResult" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="DiffernceTicks" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloSoapIn">
+    <wsdl:part name="parameters" element="tns:Hello" />
+  </wsdl:message>
+  <wsdl:message name="HelloSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLocalDateTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLocalDateTime" />
+  </wsdl:message>
+  <wsdl:message name="GetLocalDateTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLocalDateTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLocalDateTimeTicksSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLocalDateTimeTicks" />
+  </wsdl:message>
+  <wsdl:message name="GetLocalDateTimeTicksSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLocalDateTimeTicksResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUtcDateTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUtcDateTime" />
+  </wsdl:message>
+  <wsdl:message name="GetUtcDateTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUtcDateTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUtcDateTimeTicksSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUtcDateTimeTicks" />
+  </wsdl:message>
+  <wsdl:message name="GetUtcDateTimeTicksSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUtcDateTimeTicksResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLocalDiffernceTicksSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLocalDiffernceTicks" />
+  </wsdl:message>
+  <wsdl:message name="GetLocalDiffernceTicksSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLocalDiffernceTicksResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUtcDiffernceTicksSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUtcDiffernceTicks" />
+  </wsdl:message>
+  <wsdl:message name="GetUtcDiffernceTicksSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUtcDiffernceTicksResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLocalDateTimeAndDiffernceTicksSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLocalDateTimeAndDiffernceTicks" />
+  </wsdl:message>
+  <wsdl:message name="GetLocalDateTimeAndDiffernceTicksSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLocalDateTimeAndDiffernceTicksResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUtcDateTimeAndDiffernceTicksSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUtcDateTimeAndDiffernceTicks" />
+  </wsdl:message>
+  <wsdl:message name="GetUtcDateTimeAndDiffernceTicksSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUtcDateTimeAndDiffernceTicksResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SampleWebServicesSoap">
+    <wsdl:operation name="Hello">
+      <wsdl:input message="tns:HelloSoapIn" />
+      <wsdl:output message="tns:HelloSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDateTime">
+      <wsdl:input message="tns:GetLocalDateTimeSoapIn" />
+      <wsdl:output message="tns:GetLocalDateTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDateTimeTicks">
+      <wsdl:input message="tns:GetLocalDateTimeTicksSoapIn" />
+      <wsdl:output message="tns:GetLocalDateTimeTicksSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDateTime">
+      <wsdl:input message="tns:GetUtcDateTimeSoapIn" />
+      <wsdl:output message="tns:GetUtcDateTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDateTimeTicks">
+      <wsdl:input message="tns:GetUtcDateTimeTicksSoapIn" />
+      <wsdl:output message="tns:GetUtcDateTimeTicksSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDiffernceTicks">
+      <wsdl:input message="tns:GetLocalDiffernceTicksSoapIn" />
+      <wsdl:output message="tns:GetLocalDiffernceTicksSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDiffernceTicks">
+      <wsdl:input message="tns:GetUtcDiffernceTicksSoapIn" />
+      <wsdl:output message="tns:GetUtcDiffernceTicksSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDateTimeAndDiffernceTicks">
+      <wsdl:input message="tns:GetLocalDateTimeAndDiffernceTicksSoapIn" />
+      <wsdl:output message="tns:GetLocalDateTimeAndDiffernceTicksSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDateTimeAndDiffernceTicks">
+      <wsdl:input message="tns:GetUtcDateTimeAndDiffernceTicksSoapIn" />
+      <wsdl:output message="tns:GetUtcDateTimeAndDiffernceTicksSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SampleWebServicesSoap" type="tns:SampleWebServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Hello">
+      <soap:operation soapAction="http://wwww.hocvienmang.com/Hello" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDateTime">
+      <soap:operation soapAction="http://wwww.hocvienmang.com/GetLocalDateTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDateTimeTicks">
+      <soap:operation soapAction="http://wwww.hocvienmang.com/GetLocalDateTimeTicks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDateTime">
+      <soap:operation soapAction="http://wwww.hocvienmang.com/GetUtcDateTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDateTimeTicks">
+      <soap:operation soapAction="http://wwww.hocvienmang.com/GetUtcDateTimeTicks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDiffernceTicks">
+      <soap:operation soapAction="http://wwww.hocvienmang.com/GetLocalDiffernceTicks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDiffernceTicks">
+      <soap:operation soapAction="http://wwww.hocvienmang.com/GetUtcDiffernceTicks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDateTimeAndDiffernceTicks">
+      <soap:operation soapAction="http://wwww.hocvienmang.com/GetLocalDateTimeAndDiffernceTicks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDateTimeAndDiffernceTicks">
+      <soap:operation soapAction="http://wwww.hocvienmang.com/GetUtcDateTimeAndDiffernceTicks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SampleWebServicesSoap12" type="tns:SampleWebServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Hello">
+      <soap12:operation soapAction="http://wwww.hocvienmang.com/Hello" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDateTime">
+      <soap12:operation soapAction="http://wwww.hocvienmang.com/GetLocalDateTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDateTimeTicks">
+      <soap12:operation soapAction="http://wwww.hocvienmang.com/GetLocalDateTimeTicks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDateTime">
+      <soap12:operation soapAction="http://wwww.hocvienmang.com/GetUtcDateTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDateTimeTicks">
+      <soap12:operation soapAction="http://wwww.hocvienmang.com/GetUtcDateTimeTicks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDiffernceTicks">
+      <soap12:operation soapAction="http://wwww.hocvienmang.com/GetLocalDiffernceTicks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDiffernceTicks">
+      <soap12:operation soapAction="http://wwww.hocvienmang.com/GetUtcDiffernceTicks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocalDateTimeAndDiffernceTicks">
+      <soap12:operation soapAction="http://wwww.hocvienmang.com/GetLocalDateTimeAndDiffernceTicks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUtcDateTimeAndDiffernceTicks">
+      <soap12:operation soapAction="http://wwww.hocvienmang.com/GetUtcDateTimeAndDiffernceTicks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SampleWebServices">
+    <wsdl:port name="SampleWebServicesSoap" binding="tns:SampleWebServicesSoap">
+      <soap:address location="http://103.3.252.222/DsWebServices/SampleWebServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SampleWebServicesSoap12" binding="tns:SampleWebServicesSoap12">
+      <soap12:address location="http://103.3.252.222/DsWebServices/SampleWebServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

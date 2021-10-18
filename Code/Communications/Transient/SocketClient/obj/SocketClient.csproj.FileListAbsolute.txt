@@ -1,0 +1,12 @@
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketClient\bin\Debug\SocketClient.exe
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketClient\bin\Debug\SocketClient.pdb
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketClient\obj\Debug\ResolveAssemblyReference.cache
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketClient\obj\Debug\SocketClient.exe
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketClient\obj\Debug\SocketClient.pdb
+F:\Utic\SourceCode\DS\DsExamples\Students\Communications\Transient\SocketClient\bin\Debug\SocketClient.exe.config
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketClient\bin\Debug\SocketClient.exe.config
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketClient\obj\Debug\SocketClient.exe
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketClient\obj\Debug\SocketClient.pdb
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketClient\bin\Debug\SocketClient.exe
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketClient\bin\Debug\SocketClient.pdb
+F:\Utic\SourceCode\DS\DsExamples\Students\Code\Communications\Transient\SocketClient\obj\Debug\ResolveAssemblyReference.cache
