@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f725f3e6-dbb3-4da3-8eb0-fe3b68438b8c": {
+      "ProjectGuid": "f725f3e6-dbb3-4da3-8eb0-fe3b68438b8c",
+      "DisplayName": "ClientWebService",
+      "ColorIndex": 0
+    },
+    "25528a37-ea37-4e76-8d6c-6e08c4346a11": {
+      "ProjectGuid": "25528a37-ea37-4e76-8d6c-6e08c4346a11",
+      "DisplayName": "Ntp",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f5870d9a-c807-4b89-a57e-10b44d3521d6": {
+      "ProjectGuid": "f5870d9a-c807-4b89-a57e-10b44d3521d6",
+      "DisplayName": "SocketServer",
+      "ColorIndex": 2
+    },
+    "e42a38f7-8e58-4b1d-9513-19e307f3a49e": {
+      "ProjectGuid": "e42a38f7-8e58-4b1d-9513-19e307f3a49e",
+      "DisplayName": "WebServices",
+      "ColorIndex": 3
+    },
+    "5f4fa14a-ead4-4782-a6b7-e14d2e95f436": {
+      "ProjectGuid": "5f4fa14a-ead4-4782-a6b7-e14d2e95f436",
+      "DisplayName": "SocketClient",
+      "ColorIndex": 4
+    },
+    "0145466e-00dd-42c0-82e4-77373307f134": {
+      "ProjectGuid": "0145466e-00dd-42c0-82e4-77373307f134",
+      "DisplayName": "DongBo",
+      "ColorIndex": 5
+    },
+    "ddb1187f-4c31-4c24-b8d4-36239d4622cb": {
+      "ProjectGuid": "ddb1187f-4c31-4c24-b8d4-36239d4622cb",
+      "DisplayName": "DongBoThoiGian",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

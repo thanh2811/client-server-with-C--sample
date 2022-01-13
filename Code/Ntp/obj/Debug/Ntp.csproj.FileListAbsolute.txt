@@ -4,3 +4,17 @@ F:\Destop\Các  HTPT\Students\Code\Ntp\obj\Debug\Ntp.csproj.AssemblyReference.ca
 F:\Destop\Các  HTPT\Students\Code\Ntp\obj\Debug\Ntp.csproj.CoreCompileInputs.cache
 F:\Destop\Các  HTPT\Students\Code\Ntp\obj\Debug\Ntp.exe
 F:\Destop\Các  HTPT\Students\Code\Ntp\obj\Debug\Ntp.pdb
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\bin\Debug\Ntp.exe
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\bin\Debug\Ntp.pdb
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\obj\Debug\Ntp.csproj.AssemblyReference.cache
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\obj\Debug\Ntp.csproj.CoreCompileInputs.cache
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\obj\Debug\Ntp.exe
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\obj\Debug\Ntp.pdb
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\bin\Debug\Ntp.exe.config
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\bin\Debug\Ntp.exe.config
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\bin\Debug\Ntp.exe
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\bin\Debug\Ntp.pdb
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\obj\Debug\Ntp.csproj.AssemblyReference.cache
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\obj\Debug\Ntp.csproj.CoreCompileInputs.cache
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\obj\Debug\Ntp.exe
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Ntp\obj\Debug\Ntp.pdb

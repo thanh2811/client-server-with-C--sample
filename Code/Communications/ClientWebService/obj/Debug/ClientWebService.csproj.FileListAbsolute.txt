@@ -5,3 +5,17 @@ F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\obj\Debug\Cli
 F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\obj\Debug\ClientWebService.csproj.CoreCompileInputs.cache
 F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\obj\Debug\ClientWebService.exe
 F:\Destop\Các  HTPT\Students\Code\Communications\ClientWebService\obj\Debug\ClientWebService.pdb
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\bin\Debug\ClientWebService.exe.config
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\bin\Debug\ClientWebService.exe
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\bin\Debug\ClientWebService.pdb
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\obj\Debug\ClientWebService.csproj.AssemblyReference.cache
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\obj\Debug\ClientWebService.csproj.CoreCompileInputs.cache
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\obj\Debug\ClientWebService.exe
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\obj\Debug\ClientWebService.pdb
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\bin\Debug\ClientWebService.exe.config
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\bin\Debug\ClientWebService.exe
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\bin\Debug\ClientWebService.pdb
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\obj\Debug\ClientWebService.csproj.AssemblyReference.cache
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\obj\Debug\ClientWebService.csproj.CoreCompileInputs.cache
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\obj\Debug\ClientWebService.exe
+C:\Users\bimbim\Desktop\HTPT\client-server-with-C--sample\Code\Communications\ClientWebService\obj\Debug\ClientWebService.pdb

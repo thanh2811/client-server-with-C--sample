@@ -4,3 +4,10 @@ F:\Destop\Các  HTPT\Students\Code\Communications\Transient\SocketServer\bin\Deb
 F:\Destop\Các  HTPT\Students\Code\Communications\Transient\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
 F:\Destop\Các  HTPT\Students\Code\Communications\Transient\SocketServer\obj\Debug\SocketServer.exe
 F:\Destop\Các  HTPT\Students\Code\Communications\Transient\SocketServer\obj\Debug\SocketServer.pdb
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\Transient\SocketServer\bin\Debug\SocketServer.exe.config
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\Transient\SocketServer\bin\Debug\SocketServer.exe
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\Transient\SocketServer\bin\Debug\SocketServer.pdb
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\Transient\SocketServer\obj\Debug\SocketServer.csproj.AssemblyReference.cache
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\Transient\SocketServer\obj\Debug\SocketServer.csproj.CoreCompileInputs.cache
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\Transient\SocketServer\obj\Debug\SocketServer.exe
+C:\Users\TrungPT\Desktop\HTPT\client-server-with-C--sample\Code\Communications\Transient\SocketServer\obj\Debug\SocketServer.pdb

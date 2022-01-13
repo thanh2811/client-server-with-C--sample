@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\bimbim\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\bimbim\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.hocvienmang.com/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.hocvienmang.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.hocvienmang.com/">
+      <s:element name="GetNtpMessage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPass" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ExamId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="QuestionId" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="OriginateTimeUtcTick" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="ntpMesage" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetNtpMessageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetNtpMessageResult" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OriginateTimeUtcTick" type="s:long" />
+            <s:element minOccurs="0" maxOccurs="1" name="ntpMesage" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Submit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserPass" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ExamId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="QuestionId" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="OriginateSendTimestamp" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="ReceiveTimestamp" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="TransmitTimestamp" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="OriginateReceiveTime" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="DifferentTicks" type="s:long" />
+            <s:element minOccurs="1" maxOccurs="1" name="DateTimeAfterSynchronize" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubmitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubmitResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetNtpMessageSoapIn">
+    <wsdl:part name="parameters" element="tns:GetNtpMessage" />
+  </wsdl:message>
+  <wsdl:message name="GetNtpMessageSoapOut">
+    <wsdl:part name="parameters" element="tns:GetNtpMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubmitSoapIn">
+    <wsdl:part name="parameters" element="tns:Submit" />
+  </wsdl:message>
+  <wsdl:message name="SubmitSoapOut">
+    <wsdl:part name="parameters" element="tns:SubmitResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ExamForNtp01Soap">
+    <wsdl:operation name="GetNtpMessage">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">- Đầu vào: Tên và mật khẩu của học viên&lt;br /&gt;  Tham số ExamId và QuestionId lấy từ trang web bài kiểm tra&lt;br /&gt;- Đầu ra: OriginateTimeUtcTick là thời gian UTC của máy khách ngay sau khi nhận được bản tin (T4) tính bằng đơn vị Tick &lt;br /&gt;  ntpMesage là bản tin nhận được từ máy chủ NTP&lt;br /&gt;Giá trị trả về 200 là thành công, ngược lại là mô tả lỗi</wsdl:documentation>
+      <wsdl:input message="tns:GetNtpMessageSoapIn" />
+      <wsdl:output message="tns:GetNtpMessageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Submit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">- Đầu vào: Tên và mật khẩu của học viên&lt;br /&gt;  Tham số ExamId và QuestionId lấy từ trang web bài kiểm tra&lt;br /&gt;  OriginateSendTimestamp là thời gian cục bộ trước khi máy khách gửi bản tin NTP&lt;br /&gt;  ReceiveTimestamp là thời gian cục bộ máy chủ NTP nhận được yêu cầu đồng bộ&lt;br /&gt;  TransmitTimestamp là thời gian cục bộ máy chủ NTP gửi bản tin cho máy khách&lt;br /&gt;  OriginateReceiveTime là thời gian cục bộ của máy khách khi nhận được bản tin từ máy chủ NTP&lt;br /&gt;  DifferentTicks là độ lệch thời gian giữa máy khách và máy chủ tính theo đơn vị Tick&lt;br /&gt;  DateTimeAfterSynchronize là thời gian cục bộ của máy khách sau khi đồng bộ&lt;br /&gt;Giá trị trả về 200 là thành công, các giá trị khác sẽ kèm theo mô tả lỗi</wsdl:documentation>
+      <wsdl:input message="tns:SubmitSoapIn" />
+      <wsdl:output message="tns:SubmitSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ExamForNtp01Soap" type="tns:ExamForNtp01Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNtpMessage">
+      <soap:operation soapAction="http://www.hocvienmang.com/GetNtpMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Submit">
+      <soap:operation soapAction="http://www.hocvienmang.com/Submit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ExamForNtp01Soap12" type="tns:ExamForNtp01Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetNtpMessage">
+      <soap12:operation soapAction="http://www.hocvienmang.com/GetNtpMessage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Submit">
+      <soap12:operation soapAction="http://www.hocvienmang.com/Submit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ExamForNtp01">
+    <wsdl:port name="ExamForNtp01Soap" binding="tns:ExamForNtp01Soap">
+      <soap:address location="http://hocvienmang.com/Exams/ExamForNtp01.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ExamForNtp01Soap12" binding="tns:ExamForNtp01Soap12">
+      <soap12:address location="http://hocvienmang.com/Exams/ExamForNtp01.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,16 @@
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\bin\Debug\net5.0\ThucHanh.exe
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\bin\Debug\net5.0\ThucHanh.deps.json
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\bin\Debug\net5.0\ThucHanh.runtimeconfig.json
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\bin\Debug\net5.0\ThucHanh.runtimeconfig.dev.json
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\bin\Debug\net5.0\ThucHanh.dll
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\bin\Debug\net5.0\ref\ThucHanh.dll
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\bin\Debug\net5.0\ThucHanh.pdb
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\obj\Debug\net5.0\ThucHanh.csproj.AssemblyReference.cache
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\obj\Debug\net5.0\ThucHanh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\obj\Debug\net5.0\ThucHanh.AssemblyInfoInputs.cache
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\obj\Debug\net5.0\ThucHanh.AssemblyInfo.cs
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\obj\Debug\net5.0\ThucHanh.csproj.CoreCompileInputs.cache
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\obj\Debug\net5.0\ThucHanh.dll
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\obj\Debug\net5.0\ref\ThucHanh.dll
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\obj\Debug\net5.0\ThucHanh.pdb
+C:\Users\TrungPT\source\repos\ThucHanh\ThucHanh\obj\Debug\net5.0\ThucHanh.genruntimeconfig.cache

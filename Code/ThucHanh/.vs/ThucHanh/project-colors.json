@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8c6ed1f4-7c5d-4f3d-8b9d-993777e8bb3f": {
+      "ProjectGuid": "8c6ed1f4-7c5d-4f3d-8b9d-993777e8bb3f",
+      "DisplayName": "ThucHanh",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

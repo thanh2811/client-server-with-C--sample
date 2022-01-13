@@ -1,0 +1,16 @@
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\obj\Debug\net5.0\DongBoTime.csproj.AssemblyReference.cache
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\obj\Debug\net5.0\DongBoTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\obj\Debug\net5.0\DongBoTime.AssemblyInfoInputs.cache
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\obj\Debug\net5.0\DongBoTime.AssemblyInfo.cs
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\obj\Debug\net5.0\DongBoTime.csproj.CoreCompileInputs.cache
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\bin\Debug\net5.0\DongBoTime.exe
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\bin\Debug\net5.0\DongBoTime.deps.json
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\bin\Debug\net5.0\DongBoTime.runtimeconfig.json
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\bin\Debug\net5.0\DongBoTime.runtimeconfig.dev.json
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\bin\Debug\net5.0\DongBoTime.dll
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\bin\Debug\net5.0\ref\DongBoTime.dll
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\bin\Debug\net5.0\DongBoTime.pdb
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\obj\Debug\net5.0\DongBoTime.dll
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\obj\Debug\net5.0\ref\DongBoTime.dll
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\obj\Debug\net5.0\DongBoTime.pdb
+C:\Users\bimbim\source\repos\DongBoTime\DongBoTime\obj\Debug\net5.0\DongBoTime.genruntimeconfig.cache
